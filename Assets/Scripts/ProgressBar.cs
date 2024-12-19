@@ -17,7 +17,7 @@ public class ProgressBar : MonoBehaviour
     }
 
     IEnumerator SwitchCoroutine() {
-        while (progressBar.fillAmount != 0) {
+        while (progressBar.fillAmount > 0) {
             progressBar.fillAmount -= Time.deltaTime * 0.1f;
             yield return new WaitForEndOfFrame();
         }
