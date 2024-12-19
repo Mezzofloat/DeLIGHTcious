@@ -1830,8 +1830,6 @@ MonoBehaviour:
   buttonImage: {fileID: 772279998}
   uncompressedButton: {fileID: 21300000, guid: b232baf3c56d7b347b2b0016ecf2fa1d, type: 3}
   compressedButton: {fileID: 21300000, guid: 092e260b35f7ce84ab4cb0652d343aa4, type: 3}
-  uncompressedButtonLight: {fileID: 21300000, guid: 9562641d69206ed46ab2d092ea442ae7, type: 3}
-  compressedButtonLight: {fileID: 21300000, guid: a3de82b615f6be44991b38edaaf4d1a6, type: 3}
 --- !u!114 &772279998
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2694,7 +2692,7 @@ Transform:
   m_GameObject: {fileID: 1831678771}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.1, y: -1.5, z: 0}
+  m_LocalPosition: {x: -0.07, y: -0.22, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2819,18 +2817,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1831678779}
-        m_TargetAssemblyTypeName: PlayerSpriteSwitch, Assembly-CSharp
-        m_MethodName: Switch
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 772279997}
         m_TargetAssemblyTypeName: MenuButton, Assembly-CSharp
         m_MethodName: Switch
@@ -2843,68 +2829,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1250496230}
-        m_TargetAssemblyTypeName: GroundSpriteSwitch, Assembly-CSharp
-        m_MethodName: Switch
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 455069313}
-        m_TargetAssemblyTypeName: GroundSpriteSwitch, Assembly-CSharp
-        m_MethodName: Switch
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 21753131}
-        m_TargetAssemblyTypeName: GroundSpriteSwitch, Assembly-CSharp
-        m_MethodName: Switch
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 830966423}
-        m_TargetAssemblyTypeName: GroundSpriteSwitch, Assembly-CSharp
-        m_MethodName: Switch
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 345550798}
         m_TargetAssemblyTypeName: MusicSwitch, Assembly-CSharp
-        m_MethodName: Switch
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 391686208}
-        m_TargetAssemblyTypeName: LimitSwitch, Assembly-CSharp
         m_MethodName: Switch
         m_Mode: 0
         m_Arguments:
@@ -3346,8 +3272,6 @@ MonoBehaviour:
   buttonImage: {fileID: 2073764018}
   uncompressedButton: {fileID: 21300000, guid: 3737f19776f6b8749a1af050d12a77b2, type: 3}
   compressedButton: {fileID: 21300000, guid: 692a44775f0c4f24d8d277193ba3ff8d, type: 3}
-  uncompressedButtonLight: {fileID: 21300000, guid: 3737f19776f6b8749a1af050d12a77b2, type: 3}
-  compressedButtonLight: {fileID: 21300000, guid: 692a44775f0c4f24d8d277193ba3ff8d, type: 3}
 --- !u!114 &2073764018
 MonoBehaviour:
   m_ObjectHideFlags: 0
