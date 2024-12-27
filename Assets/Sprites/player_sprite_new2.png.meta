@@ -1,9 +1,9 @@
 fileFormatVersion: 2
-guid: 6f3b2137356591245afb6b1de0b08364
+guid: 9abde78823fd1244aa7ba0de401647a5
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -94,7 +94,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Server
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: character_frame4_0
+      name: player_sprite_new2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -124,14 +124,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8be38a9d934b8ef4e942aa54db6e609e
-      internalID: -1355063446
+      spriteID: 2fd1d1caea49c8e419fc674d00c698fe
+      internalID: 1813878209
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_frame4_1
+      name: player_sprite_new2_1
       rect:
         serializedVersion: 2
         x: 512
@@ -145,14 +145,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e8318b9ae72a5d48add0306b181d79b
-      internalID: -348555901
+      spriteID: 5d553534c1cb5c341a9ea37d04473207
+      internalID: 1308156264
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_frame4_2
+      name: player_sprite_new2_2
       rect:
         serializedVersion: 2
         x: 0
@@ -166,14 +166,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa04fb47e6a68dc47981783bf6a31ba3
-      internalID: 1445333408
+      spriteID: 97547e32361dcf743aa541e86db43dfb
+      internalID: 561279391
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_frame4_3
+      name: player_sprite_new2_3
       rect:
         serializedVersion: 2
         x: 512
@@ -187,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17568e5cc4cebe740a15be73ab7760cf
-      internalID: 992223939
+      spriteID: e4faf64fbb773c84b957414cb2104486
+      internalID: -522320799
       vertices: []
       indices: 
       edges: []
@@ -204,10 +204,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      character_frame4_0: -1355063446
-      character_frame4_1: -348555901
-      character_frame4_2: 1445333408
-      character_frame4_3: 992223939
+      player_sprite_new2_0: 1813878209
+      player_sprite_new2_1: 1308156264
+      player_sprite_new2_2: 561279391
+      player_sprite_new2_3: -522320799
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
