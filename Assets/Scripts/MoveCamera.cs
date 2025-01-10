@@ -12,7 +12,7 @@ public class MoveCamera : MonoBehaviour
     void Update() {
         tweener.Kill();
         if ((transform.position - player.position).sqrMagnitude > 0.0001f) {
-            tweener = transform.DOMove(new Vector3(player.position.x, player.position.y, -10), 1f).SetEase(Ease.OutSine);
+            tweener = transform.DOMove(new Vector3(player.position.x, player.position.y, -10), 0.5f).SetEase(Ease.OutSine);
         }
     }
 
